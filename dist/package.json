@@ -1,0 +1,10 @@
+{
+  "name": "admin-dashboard-site",
+  "version": "1.0.0",
+  "description": "獨立的管理後台網站",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve dist",
+    "deploy": "npx vercel dist --name=admin-dashboard-site"
+  }
+}
